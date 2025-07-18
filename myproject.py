@@ -4,7 +4,7 @@ import random
 # ドット絵のサイズ（10×10）
 masu_w, masu_h = 10, 10
 # 各色のパレットインデックス
-IRO_LIST = [8, 0, 9, 1,12]
+IRO_LIST = [8, 0, 2, 1,12]
 
 class DotEditor:
     def __init__(self):
