@@ -26,9 +26,9 @@ class DotEditor:
 
         # 色切替
         if pyxel.btnp(pyxel.KEY_1): self.color = 1
-        if pyxel.btnp(pyxel.KEY_2): self.color = 2
-        if pyxel.btnp(pyxel.KEY_3): self.color = 3
-        if pyxel.btnp(pyxel.KEY_0): self.color = 8
+        if pyxel.btnp(pyxel.KEY_2): self.color = 3
+        if pyxel.btnp(pyxel.KEY_3): self.color = 8
+        if pyxel.btnp(pyxel.KEY_0): self.color = 2
 
         # Enter で次フェーズへ
         return pyxel.btnp(pyxel.KEY_RETURN)
