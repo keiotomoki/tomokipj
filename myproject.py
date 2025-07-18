@@ -4,7 +4,7 @@ import random
 # ドット絵のサイズ（10×10）
 masu_w, masu_h = 10, 10
 # 各色のパレットインデックス
-IRO_LIST = [0, 8, 9, 1,12]
+IRO_LIST = [8, 0, 9, 1,12]
 
 class DotEditor:
     def __init__(self):
@@ -70,7 +70,7 @@ class CharViewer:
         self.spawn_t   = 0
         self.score     = 0
         self.speed     = 3
-        self.countdown_t = 60 * 4  # 約4秒のカウントダウン
+        self.countdown_t = 40 * 4  # 約4秒のカウントダウン
 
 
     def update(self):
