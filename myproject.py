@@ -8,7 +8,7 @@ IRO_LIST = [8, 0, 9, 1,12]
 
 class DotEditor:
     def __init__(self):
-        self.dot_data = [ 2] * (masu_w * masu_h)
+        self.dot_data = [2] * (masu_w * masu_h)
         self.color    = 1
         self.cx = 0
         self.cy = 0
@@ -28,7 +28,7 @@ class DotEditor:
         if pyxel.btnp(pyxel.KEY_1): self.color = 1
         if pyxel.btnp(pyxel.KEY_2): self.color = 2
         if pyxel.btnp(pyxel.KEY_3): self.color = 3
-        if pyxel.btnp(pyxel.KEY_0): self.color = 0
+        if pyxel.btnp(pyxel.KEY_0): self.color = 8
 
         # Enter で次フェーズへ
         return pyxel.btnp(pyxel.KEY_RETURN)
